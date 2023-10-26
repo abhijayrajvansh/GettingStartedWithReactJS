@@ -10,7 +10,7 @@ const page = () => {
       </h1>
       <h1 className="ml-5">Watching this in iPad</h1>
       <button
-        onClick={() => {
+        onClick={ () => {
           setValue(99999);
         }}
         className="bg-black font-bold text-white px-5 py-2 rounded mt-5 ml-5"
